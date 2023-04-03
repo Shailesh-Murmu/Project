@@ -1,0 +1,123 @@
+/* page1 wriiten  */
+
+.inside1{
+    animation-name: displayss;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    /* animation-delay: 0.5s; */
+    animation-timing-function: ease-out;
+    position: relative;
+}
+@keyframes displayss {
+    from {
+        top: 1250px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+/* navbar  */
+
+.navbar{
+    animation-name: displays;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    /* animation-delay: 0.5s; */
+    animation-timing-function: ease-out;
+    position: relative;
+}
+@keyframes displays {
+    from {
+        bottom: 1250px;
+    }
+    to {
+        bottom: 0px;
+    }
+}
+
+.popup{
+    animation-name: displayss;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    /* animation-delay: 0.5s; */
+    animation-timing-function: ease-out;
+    position: relative;
+}
+@keyframes displayss {
+    from {
+        top: 1250px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+
+.boxLeft{
+    animation-name: displaysss;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    /* animation-delay: 0.5s; */
+    animation-timing-function: ease-out;
+    position: relative;
+}
+@keyframes displaysss {
+    from {
+        right: 1250px;
+    }
+    to {
+        right: 0px;
+    }
+}
+.boxCenter1{
+    animation-name: displayssss;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    /* animation-delay: 0.5s; */
+    animation-timing-function: ease-out;
+    position: relative;
+}
+@keyframes displayssss {
+    from {
+        right: 1250px;
+    }
+    to {
+        right: 0px;
+    }
+}
+
+.boxCenter2{
+    animation-name: displayssssss;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    /* animation-delay: 0.5s; */
+    animation-timing-function: ease-out;
+    position: relative;
+}
+@keyframes displayssssss {
+    from {
+        right: 1250px;
+    }
+    to {
+        right: 0px;
+    }
+}
+
+
+.boxCenter3{
+    animation-name: displaysssss;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    /* animation-delay: 0.5s; */
+    animation-timing-function: ease-out;
+    position: relative;
+}
+@keyframes displaysssss {
+    from {
+        right: 1250px;
+    }
+    to {
+        right: 0px;
+    }
+}

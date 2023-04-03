@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="Boxes.css">
+    <link rel="stylesheet" href="Collage2.css">
+    <link rel="stylesheet" href="Collage3.css">
+    <link rel="stylesheet" href="Collage4.css">
+    <link rel="stylesheet" href="scroll.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+    <header class="container">
+        <nav class="navbar">
+            <div class="left">
+                <img src="logo3.png" alt="Image not found" class="logo">
+            </div>
+            <div class="center" >
+                <ul>
+                    <li class="items1"><a href="/index.html" class="navbtn">Home</a></li>
+                    <li class="items1"><a href="CollageFinal.html" class="navbtn">Create</a></li>
+                    <li class="items1"><a href="/text" class="navbtn">Explore</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li class="class"><a href="Sign up.html">Sign up</a></li>
+                    <li class="class"><a href="Sign in.html">Sign in</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="boxes">
+        <div class="boxLeft">
+            <div class="color icon"><img src="backgroundicon.png" alt="" class="icon1"></div>
+            <div class="images icon"><img src="1160358.png" alt="" class="icon2"></div>
+            <div class="collage icon"><img src="Collageicon.png" alt="" class="icon3"></div>
+        </div>
+        <div class="boxCenter1">
+            <form action="" class="form">
+                <label for="">Background:</label>
+                <input type="text" name="color" id="color">
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="boxCenter2">
+            <div class="insideonce">
+                <label for="">Image Name:</label><br>
+                <input type="text" id="namebox">
+                <label for="" id="extlab"></label>
+                <br><br>
+                <img alt="" id="myimg" class="i">
+                <label for="" id="upprogress"></label><br>
+
+                <button id="selbtn">Select Image</button><br>
+                <button id="upbtn">Upload Image</button><br><br>
+                <div>Click on the button to place  in the box</div>
+                <button id="downbtn1">Box 1</button>
+                <button id="downbtn2">Box 2</button><br>
+                <button id="downbtn3">Box 3</button>
+                <button id="downbtn4">Box 4</button>
+            </div>
+        </div>
+        <div class="boxCenter3">
+            Click on Collage:
+            <div class="scroll">
+                <div class="pic21 c">Layout 1</div>
+                <div class="pic22 c">Layout 2</div>
+                <div class="pic31 c">Layout 3</div>
+                <div class="pic32 c">Layout 4</div>
+                <div class="pic33 c">Layout 5</div>
+                <div class="pic34 c">Layout 6</div>
+                <div class="pic41 c">Layout 7</div>
+                <div class="pic42 c">Layout 8</div>
+                <div class="pic43 c">Layout 9</div>
+                <div class="pic44 c">Layout 10</div>
+                <div class="pic45 c">Layout 11</div>
+                <div class="pic46 c">Layout 12</div>
+                <div class="pic47 c">Layout 13</div>
+            </div>
+        </div>
+        <div class="boxRight">
+            <div class="inside1">
+                
+                <div class="collage1a">
+                    <img class="box1a box boxa " id="myimage1a" ondragenter="boxa()">
+                    <img class="box2a box boxb" id="myimage1b" ondrop="boxb()">
+                </div>
+                <div class="collage1b">
+                    <div class="collage1bb">
+                        <img class="box1b box boxa" id="myimage2a" ondrop="boxa()">
+                        <img class="box2b box boxb" id="myimage2b" ondrop="boxb()">
+                    </div>
+                </div> 
+
+                <div class="collage2a">
+                    <div class="collage2aa">
+                        <img class="box12a box boxa" id="myimage3a" ondrop="boxa()">
+                        <img class="box12b box boxb" id="myimage3b" ondrop="boxb()">
+                        <img class="box12c box boxc" id="myimage3c" ondrop="boxc()">
+                    </div>
+                </div>
+                <div class="collage2b">
+                    <img class="box22a box boxa" id="myimage4a" ondrop="boxa()">
+                    <div class="in2a">
+                        <img class="box22b box boxb" id="myimage4b" ondrop="boxb()">
+                        <img class="box22c box boxc" id="myimage4c" ondrop="boxc()">
+                    </div>
+                </div>
+                <div class="collage2c">
+                    <img class="box32a box boxa" id="myimage5a" ondrop="boxa()">
+                    <img class="box32b box boxb" id="myimage5b" ondrop="boxb()">
+                    <img class="box32c box boxc" id="myimage5c" ondrop="boxc()">
+                </div>
+                <div class="collage2d">
+                    <div class="in2b">
+                        <img class="box42a box boxa" ondrop="boxa()" id="myimage6a">
+                        <img class="box42b box boxb" ondrop="boxb()" id="myimage6b">
+                    </div>
+                    <img class="box42c box boxc" ondrop="boxc()" id="myimage6c">
+                </div>
+                <div class="collage3a">
+                    <div class="in3aa">
+                        <img class="box42a box boxa" id="myimage7a" ondrop="boxa()">
+                        <img class="box42b box boxb" id="myimage7b" ondrop="boxb()">
+                    </div>
+                    <div class="in3ab">
+                        <img class="box42c box boxc" id="myimage7c" ondrop="boxc()">
+                        <img class="box42c box boxd" id="myimage7d" ondrop="boxd()">
+                    </div>
+                </div>
+                <div class="collage3b">
+                    <div class="collage3bb">
+                        <div class="in3ba">
+                        <img class="box43a box boxa" ondrop="boxa()" id="myimage8a">
+                    </div>
+                    <div class="in3bb">
+                        <img class="box43b box boxb" ondrop="boxb()" id="myimage8b">
+                        <img class="box43c box boxc" ondrop="boxc()" id="myimage8c">
+                        <img class="box43d box boxd" ondrop="boxd()" id="myimage8d">
+                    </div>
+                    </div>
+                </div>
+                <div class="collage3c">
+                    <div class="collage3cc">
+                        <div class="in3cb">
+                            <img class="box44b box boxa" id="myimage9a" ondrop="boxa()">
+                            <img class="box44c box boxb" id="myimage9b" ondrop="boxb()">
+                            <img class="box44d box boxc" id="myimage9c" ondrop="boxc()">
+                        </div>
+                        <div class="in3ca">
+                            <img class="box44a box boxd" id="myimage9d" ondrop="boxd()">
+                        </div>
+                    </div>
+                </div>
+                <div class="collage3d">
+                    <div class="in3ea">
+                        <img class="box45a box boxa" id="myimage10a" ondrop="boxa()">
+                        <img class="box45b box boxb" id="myimage10b" ondrop="boxb()">
+                    </div>
+                    <div class="in3eb">
+                        <img class="box45c box boxc" id="myimage10c" ondrop="boxc()">
+                        <img class="box45d box boxd" id="myimage10d" ondrop="boxd()">
+                    </div>
+                </div>
+                <div class="collage3e">
+                    <div class="in3fa">
+                        <img class="box46a box boxa" id="myimage11a" ondrop="boxa()">
+                        <img class="box46b box boxb" id="myimage11b" ondrop="boxb()">
+                    </div>
+                    <div class="in3fb">
+                        <img class="box46c box boxc" id="myimage11c" ondrop="boxc()">
+                        <img class="box46d box boxd" id="myimage11d" ondrop="boxd()">
+                    </div>
+                </div> 
+                <div class="collage3f">
+                    <div class="in3db">
+                        <img class="box47b box boxa" id="myimage12a" ondrop="boxa()">
+                        <img class="box47c box boxb" id="myimage12b" ondrop="boxb()">
+                        <img class="box47d box boxc " id="myimage12c" ondrop="boxc()">
+                    </div>
+                    <div class="in3da">
+                        <img class="box47a box boxd" id="myimage12d" ondrop="boxd()">
+                    </div>
+                </div>
+                <div class="collage3g">
+                    <div class="in3ea">
+                        <img class="box48a box boxa" id="myimage13a" ondrop="boxa()">
+                    </div>
+                    <div class="in3eb">
+                        <img class="box48b box boxb" id="myimage13b" ondrop="boxb()">
+                        <img class="box48c box boxc" id="myimage13c" ondrop="boxc()">
+                        <img class="box48d box boxd" id="myimage13d" ondrop="boxd()">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyASewByWgwYa1lAeWyn1cP889jYGnbErX4",
+          authDomain: "fir-90d67.firebaseapp.com",
+          databaseURL: "https://fir-90d67-default-rtdb.firebaseio.com",
+          projectId: "fir-90d67",
+          storageBucket: "fir-90d67.appspot.com",
+          messagingSenderId: "1051701276987",
+          appId: "1:1051701276987:web:301b6f992bc024a7cb471e",
+          measurementId: "G-HW03CZEQ8K"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+
+        import { getStorage, ref as sRef, uploadBytesResumable, getDownloadURL } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-storage.js";
+
+        import { getFirestore, doc, getDoc, setDoc, collection, addDoc } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-firestore.js";
+
+        const clouddb = getFirestore();
+
+
+
+
+        // variable and reference 
+        
+        var files = [];
+        var reader = new FileReader();
+
+        var namebox = document.getElementById('namebox');
+        var extlab = document.getElementById('extlab');
+        var myimg = document.getElementById('myimg');
+        var proglab = document.getElementById('upprogress');
+        var SelBtn = document.getElementById('selbtn');
+        var UpBtn = document.getElementById('upbtn');
+        var DownBtn1 = document.getElementById('downbtn1');
+        var DownBtn2 = document.getElementById('downbtn2');
+        var DownBtn3 = document.getElementById('downbtn3');
+        var DownBtn4 = document.getElementById('downbtn4');
+        var colored = document.querySelector('.box');
+
+        var boxa = document.querySelector(".boxa");
+        var boxc = document.querySelector(".boxb");
+        var boxb = document.querySelector(".boxc");
+        var boxa = document.querySelector(".boxd");
+
+
+        var input = document.createElement('input');
+        input.type = 'file';
+
+        input.onchange = e =>{
+            files = e.target.files;
+
+            var extension = GetFileExt(files[0]);
+            var name = GetFileName(files[0]);
+
+            namebox.value = name;
+            extlab.innerHTML = extension;
+
+
+            reader.readAsDataURL(files[0]);
+        }
+
+        reader.onload = function(){
+            myimg.src = reader.result;
+        }
+
+        // selection 
+
+        SelBtn.onclick = function(){
+            input.click();
+        }
+
+        function GetFileExt(file) {
+            var temp = file.name.split('.');
+            var ext = temp.slice((temp.length-1),(temp.length));
+            return '.' + ext[0];
+        }
+
+        function GetFileName(file) {
+            var temp = file.name.split('.');
+            var fname = temp.slice(0,-1).join('.');
+            return fname;
+        }
+
+        // upload proces 
+
+        async function UploadProcess(){
+            var ImgToUpload = files[0];
+
+            var ImgName = namebox.value + extlab.innerHTML;
+
+            const metaData = {
+                contentType: ImgToUpload.type
+            }
+            
+
+            const storage = getStorage();
+            
+            const stroageRef = sRef(storage, "Images/"+ImgName);
+            const UploadTask = uploadBytesResumable(stroageRef, ImgToUpload, metaData);
+
+            UploadTask.on('state-changed', (snapshot)=>{
+                var progress = (snapshot.bytesTransferred / snapshot.totalBytes)* 100;
+                proglab.innerHTML = "Upload "+ progress + "%";
+            },
+            (error) => {
+                alert("error: image not uploaded!")
+            },
+            ()=>{
+                getDownloadURL(UploadTask.snapshot.ref).then((downloadURL)=>{
+                    SaveURLtoFirestore(downloadURL)
+                    console.log(downloadURL)
+                })
+            }
+            )
+        }
+
+        // Functions for FIRESTORE DATABASE 
+
+        async function SaveURLtoFirestore(url){
+            var name = namebox.value;
+            var ext = extlab.innerHTML;
+            var ref = doc(clouddb, "ImageLinks/"+name);
+            console.log(name,url)
+            await setDoc(ref ,{
+            ImageName: (name + ext),
+            ImageURL: url
+            })      
+        }       
+
+        async function GetImagefromFirestore1(){
+            var name = namebox.value;
+            var ref = doc(clouddb, "ImageLinks/"+name)
+            const docSnap = await getDoc(ref);
+            document.querySelector(".box").style.border = "none";
+
+            if (docSnap.exists()){
+                myimage1a.src = docSnap.data().ImageURL;
+                myimage2a.src = docSnap.data().ImageURL;
+                myimage3a.src = docSnap.data().ImageURL;
+                myimage4a.src = docSnap.data().ImageURL;
+                myimage5a.src = docSnap.data().ImageURL;
+                myimage6a.src = docSnap.data().ImageURL;
+                myimage7a.src = docSnap.data().ImageURL;
+                myimage8a.src = docSnap.data().ImageURL;
+                myimage9a.src = docSnap.data().ImageURL;
+                myimage10a.src = docSnap.data().ImageURL;
+                myimage11a.src = docSnap.data().ImageURL;
+                myimage12a.src = docSnap.data().ImageURL;
+                myimage13a.src = docSnap.data().ImageURL;
+
+            }
+        }
+
+        async function GetImagefromFirestore2(){
+            var name = namebox.value;
+            var ref = doc(clouddb, "ImageLinks/"+name)
+            const docSnap = await getDoc(ref);
+            document.querySelector(".box").style.border = "none";
+
+            if (docSnap.exists()){
+                myimage1b.src = docSnap.data().ImageURL;
+                myimage2b.src = docSnap.data().ImageURL;
+                myimage3b.src = docSnap.data().ImageURL;
+                myimage4b.src = docSnap.data().ImageURL;
+                myimage5b.src = docSnap.data().ImageURL;
+                myimage6b.src = docSnap.data().ImageURL;
+                myimage7b.src = docSnap.data().ImageURL;
+                myimage8b.src = docSnap.data().ImageURL;
+                myimage9b.src = docSnap.data().ImageURL;
+                myimage10b.src = docSnap.data().ImageURL;
+                myimage11b.src = docSnap.data().ImageURL;
+                myimage12b.src = docSnap.data().ImageURL;
+                myimage13b.src = docSnap.data().ImageURL; 
+            }
+        }
+
+        async function GetImagefromFirestore3(){
+            var name = namebox.value;
+            var ref = doc(clouddb, "ImageLinks/"+name)
+            const docSnap = await getDoc(ref);
+            document.querySelector(".box").style.border = "none";
+
+            if (docSnap.exists()){
+                myimage3c.src = docSnap.data().ImageURL;
+                myimage4c.src = docSnap.data().ImageURL;
+                myimage5c.src = docSnap.data().ImageURL;
+                myimage6c.src = docSnap.data().ImageURL;
+                myimage7c.src = docSnap.data().ImageURL;
+                myimage8c.src = docSnap.data().ImageURL;
+                myimage9c.src = docSnap.data().ImageURL;
+                myimage10c.src = docSnap.data().ImageURL;
+                myimage11c.src = docSnap.data().ImageURL;
+                myimage12c.src = docSnap.data().ImageURL;
+                myimage13c.src = docSnap.data().ImageURL;
+            }
+        }
+
+        async function GetImagefromFirestore4(){
+            var name = namebox.value;
+            var ref = doc(clouddb, "ImageLinks/"+name)
+            const docSnap = await getDoc(ref);
+            document.querySelector(".box").style.border = "none";
+            
+            if (docSnap.exists()){
+                myimage7d.src = docSnap.data().ImageURL;
+                myimage8d.src = docSnap.data().ImageURL;
+                myimage9d.src = docSnap.data().ImageURL;
+                myimage10d.src = docSnap.data().ImageURL;
+                myimage11d.src = docSnap.data().ImageURL;
+                myimage12d.src = docSnap.data().ImageURL;
+                myimage13d.src = docSnap.data().ImageURL;
+            }
+            
+        }
+
+        UpBtn.onclick = UploadProcess;
+        DownBtn1.onclick = GetImagefromFirestore1;
+        DownBtn2.onclick = GetImagefromFirestore2;
+        DownBtn3.onclick = GetImagefromFirestore3;
+        DownBtn4.onclick = GetImagefromFirestore4;
+        
+    </script>
+    <script id="MainScript">
+        
+    </script>
+    <script src="collage.js"></script>
+    <script src="background.js"></script>
+</body>
+</html>
